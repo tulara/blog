@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'HelloScript';
+  src: url('fonts/helloScript.ttf')  format('truetype');
+}
+
+.hello {
+	font-family: 'HelloScript', sans-serif;
+	font-size: 60px;
+}
+
+
+/*css-reset*/
+body {
+	margin: 0;
+}
+

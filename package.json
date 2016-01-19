@@ -1,0 +1,23 @@
+{
+	"name":"tulara-blog",
+	"version":"0.0.1",
+	"description":"a place to exhibit crochet fun",
+	"author":"Tulara <tulara.webster@gmail.com>",
+	"dependencies": {
+		"angular": "^1.4.0",
+		"font-awesome":"4.4.0",
+		"connect":"3.4.0 ",
+		"serve-static": "1.10.0"
+	},
+	"devDependencies":{
+		"gulp":"3.9.0"
+	},
+	"scripts": {
+    	"start": "node server.js"
+    },
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/tulara/blog.git"
+	},
+	"license":"MIT"
+}
