@@ -24,5 +24,8 @@ Open chrome via command line with following arguments to avoid cross origin erro
 - header that backs off as scroll down on sub pages (a la realestate.com.au)
 - css reset
 - sass
+- mixin for background cover, clearfix
 - require.js
-- gulp
+- gulp generate dependencies 
+
+Is only the public folder exposed? node server. We can't access anything outside exposed page from home page?

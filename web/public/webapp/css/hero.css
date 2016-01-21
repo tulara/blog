@@ -4,13 +4,27 @@
 }
 
 .hero {
-	background-image: url("../img/hero-temp2.jpeg");
+	background-image: url("../img/hero-small.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
-	min-height: 300px;
-    padding-top:100px;
+	min-height: 150px;
+    padding-top: 30px;
 	margin-top:0;
 }
+
+@media only screen and (min-width:640px){
+	.hero {
+		background-image: url("../img/hero-temp2.jpeg");
+		background-repeat: no-repeat;
+		background-size:cover;
+		min-height: 300px;
+	    padding-top:100px;
+		margin-top:0;
+	}
+}
+
+
+
 
 .title {
 	font-family: 'UrbanElegance',Courier, sans-serif;
