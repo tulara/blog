@@ -1,6 +1,5 @@
 {
   "name": "tulara-blog",
-  "directory": "web/public/js/lib",
   "version": "0.0.1",
   "dependencies": {
     "angular": "^1.4.6"
