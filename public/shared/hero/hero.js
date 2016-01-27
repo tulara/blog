@@ -4,6 +4,6 @@ app.directive('hero', function() {
 		scope : {
 			title: '='
 		},
-		templateUrl: 'js/directives/hero.html'
+		templateUrl: 'shared/hero/hero.html'
 	}
 });

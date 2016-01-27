@@ -1,4 +1,4 @@
 node_modules/*
 npm-debug.log
 questions
-web/public/vendor/*
+public/assets/vendor/*
