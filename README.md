@@ -26,6 +26,4 @@ Open chrome via command line with following arguments to avoid cross origin erro
 - sass
 - mixin for background cover, clearfix
 - require.js
-- gulp generate dependencies 
-
-Is only the public folder exposed? node server. We can't access anything outside exposed page from home page?
+- bower generate front end packages then grunt to get them into relevant files
