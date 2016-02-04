@@ -9,6 +9,7 @@
 		"serve-static": "*"
 	},
 	"devDependencies":{
+		"jasmine":"*"
 	},
 	"scripts": {
 		"install":"bower install",

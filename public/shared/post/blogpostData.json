@@ -1,0 +1,10 @@
+{
+	"posts":[
+	{
+		"title": "post title",
+		"content": "post content",
+		"category": "crochet",
+		"date": "some date"
+	}
+	]
+}

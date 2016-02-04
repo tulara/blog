@@ -1,2 +1,2 @@
-app.controller('CrochetController',['$scope', function($scope){
+app.controller('crochetController',['$scope', function($scope){
 }]);
