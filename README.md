@@ -1,7 +1,5 @@
 ## Tulara's crochet blog :)
 
-https://tulara-blog.herokuapp.com/
-
 ### TO RUN LOCALLY  
 
 Open chrome via command line with following arguments to avoid cross origin errors on your local file system
@@ -14,7 +12,6 @@ Open chrome via command line with following arguments to avoid cross origin erro
 
 1. `heroku login`
 2. `git push heroku master`
-3. `heroku ps:scale web=1`
 4. `heroku open`
 
 ### TO DO

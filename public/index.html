@@ -1,23 +1,21 @@
 <!DOCTYPE HTML>
-<html>
+<html ng-app="blog">
 <head>
 	 <link href="assets/css/homepage.css" rel="stylesheet" />
 	 <link href="assets/css/hero.css" rel="stylesheet" />
 	 <link href="assets/css/post.css" rel="stylesheet" />
 	<title>Hello</title>
 </head>
-<body ng-app="blog">
+<body>
 
 <div ng-controller="crochetController">
 	<hero title="title"></hero>
 </div>	
 
 <div ng-controller="blogpostController">
-	<div class="blog-post">
-		<div ng-repeat="post in posts">
-			<h1>{{post.title}}</h2>
-			<p>{{post.content}}</p>
-		</div>
+	<div ng-repeat="post in posts" class="blog-post">
+		<h1>{{post.title}}</h2>
+		<p>{{post.content}}</p>
 	</div>
 </div>
 

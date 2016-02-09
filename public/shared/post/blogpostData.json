@@ -5,6 +5,12 @@
 		"content": "post content",
 		"category": "crochet",
 		"date": "some date"
+	},
+	{
+		"title": "another post title",
+		"content": "exciting stuff",
+		"category": "crochet",
+		"date": "some date"
 	}
 	]
 }
