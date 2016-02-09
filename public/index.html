@@ -4,12 +4,17 @@
 	 <link href="assets/css/homepage.css" rel="stylesheet" />
 	 <link href="assets/css/hero.css" rel="stylesheet" />
 	 <link href="assets/css/post.css" rel="stylesheet" />
+	 <link href="assets/css/project-panel.css" rel="stylesheet" />
 	<title>Hello</title>
 </head>
 <body>
 
 <div ng-controller="crochetController">
 	<hero title="crochet"></hero>
+
+	<div class="project-panel">
+		<img ng-repeat="project in panel" ng-src="assets/img/{{project.imgPath}}" />
+	</div>
 
 	<div ng-controller="blogpostController">
 		<div ng-repeat="post in posts" class="blog-post">
@@ -32,7 +37,8 @@
 <!-- Directives -->
 <script src="shared/hero/hero.js"></script>
 
-<!-- Filters -->
+<!-- Services -->
+<script src="shared/projects/projectsService.js"></script>
 
  
 </body>
