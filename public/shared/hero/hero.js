@@ -2,7 +2,7 @@ app.directive('hero', function() {
 	return {
 		restrict: 'E',
 		scope : {
-			title: '='
+			title: '@'
 		},
 		templateUrl: 'shared/hero/hero.html'
 	}

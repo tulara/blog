@@ -9,13 +9,13 @@
 <body>
 
 <div ng-controller="crochetController">
-	<hero title="title"></hero>
-</div>	
+	<hero title="crochet"></hero>
 
-<div ng-controller="blogpostController">
-	<div ng-repeat="post in posts" class="blog-post">
-		<h1>{{post.title}}</h2>
-		<p>{{post.content}}</p>
+	<div ng-controller="blogpostController">
+		<div ng-repeat="post in posts" class="blog-post">
+			<h1>{{post.title}}</h2>
+			<p>{{post.content}}</p>
+		</div>
 	</div>
 </div>
 

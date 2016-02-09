@@ -6,7 +6,8 @@
 	"dependencies": {   
 		"bower": "*",
 		"connect":"*",
-		"serve-static": "*"
+		"serve-static": "*",
+		"serve-favicon":"*"
 	},
 	"devDependencies":{
 		"jasmine":"*"
