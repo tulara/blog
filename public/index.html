@@ -5,6 +5,7 @@
 	 <link href="assets/css/hero.css" rel="stylesheet" />
 	 <link href="assets/css/post.css" rel="stylesheet" />
 	 <link href="assets/css/project-panel.css" rel="stylesheet" />
+	 <link href="assets/css/clear-fix.css" rel="stylesheet" />
 	<title>Hello</title>
 </head>
 <body>
@@ -13,9 +14,15 @@
 	<hero title="crochet"></hero>
 
 	<div class="project-panel">
-		<img ng-repeat="project in panel" ng-src="assets/img/{{project.imgPath}}" />
+		<span class="project" 
+		ng-repeat="project in panel" 
+		ng-mouseover="hoverOn()" 
+		ng-mouseleave="hoverOff()">
+			<h1 class="project-title" ng-show="showTitle">{{project.title}}</h1>
+			<img ng-src="assets/img/{{project.imgPath}}" />
+		</span>
 	</div>
-
+<span class="clearfix"></span>
 	<div ng-controller="blogpostController">
 		<div ng-repeat="post in posts" class="blog-post">
 			<h1>{{post.title}}</h2>
