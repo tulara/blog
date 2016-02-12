@@ -5,9 +5,10 @@
 	"author":"Tulara <tulara.webster@gmail.com>",
 	"dependencies": {   
 		"bower": "*",
-		"connect":"*",
-		"serve-static": "*",
-		"serve-favicon":"*"
+		"serve-favicon":"*",
+		"connect": "^3.3.4",
+   		"node-sass-middleware": "^0.9.0",
+    	"serve-static": "^1.8.1"
 	},
 	"devDependencies":{
 		"jasmine":"*"

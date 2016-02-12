@@ -27,8 +27,3 @@ Open chrome via command line with following arguments to avoid cross origin erro
 - require.js?
 - time zone on timestamps? ryan's book.
 - bower generate front end packages then grunt to get them into relevant files
-
-
-### INFLUENCES
-Directory structure: https://scotch.io/tutorials/angularjs-best-practices-directory-structure
-

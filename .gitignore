@@ -2,3 +2,4 @@ node_modules/*
 npm-debug.log
 questions
 public/assets/vendor/*
+public/assets/css/*

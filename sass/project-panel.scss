@@ -1,0 +1,34 @@
+@import 'fonts/fonts';
+@import 'colours';
+
+$margin-auto-center: 0 auto;
+
+.project-panel {
+	font-family: $font-stack;
+	margin-top:-10px;
+}
+.project  {
+	display:inline;
+	position: relative;
+	text-align: center;
+	float: left;
+	width:23%;
+	margin:0.8%;
+
+	border-radius: 5px;
+    box-shadow: 0 2px 0 0 $cream;
+    background-color: $cream;
+    border: 1px $cream solid;
+
+	img {
+		border-radius: 5px;
+		z-index: 1;
+		opacity: 0.8;
+		width:100%;
+	}
+
+	img:hover {
+		opacity: 1.0;
+		background-color: #cccccc;
+	}
+}

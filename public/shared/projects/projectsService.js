@@ -15,7 +15,23 @@ app.service("projectsService", function(){
 			},
 			{
 				imgPath: "crochetPanel/crochet-ribbed-beanie.jpg",
-				title:"Ribbed Beanie"
+				title:"Ribbed Broncos Beanie"
+			},
+			{
+				imgPath: "crochetPanel/crochet-granny-squares.jpg",
+				title:"Granny Squares"
+			},
+			{
+				imgPath: "crochetPanel/crochet-heart.jpg",
+				title:"Puffed Heart"
+			},
+			{
+				imgPath: "crochetPanel/crochet-puff-flowers.jpg",
+				title:"Puffed Flowers"
+			},
+			{
+				imgPath: "crochetPanel/crochet-thor-beanie.jpg",
+				title:"Thor Beanie"
 			}
 		]};
 })
