@@ -39,4 +39,10 @@ $margin-auto-center: 0 auto;
 		min-height: 400px;
 	    padding-top:100px;
     }
+
+    @media only screen and (min-width:1300px){
+    	background-image: url("../img/hero-temp2.jpeg");
+		min-height: 600px;
+	    padding-top:100px;
+    }
 }
