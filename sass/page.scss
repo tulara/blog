@@ -1,9 +1,18 @@
 /*TODO: css-reset*/
 @import 'fonts/fonts';
+@import 'colours';
 
 body {
 	font-family: $font-stack;
 	background-color: #333333;
 	margin:0;
 	padding:0;
+}
+
+a {
+	color:$cream;
+
+	&:hover {
+		color:#996515;
+	}
 }
