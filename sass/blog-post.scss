@@ -1,12 +1,8 @@
 @import 'fonts/fonts';
 @import 'colours';
 
-$pad: 10px;
-
 .blog-post {
 	background-color: $cream;
-	min-height: 200px;
-	padding:2*$pad;
 	margin-top:30px;
 	border-radius: 5px;
     box-shadow: 0 2px 0 0 $cream;
@@ -20,9 +16,17 @@ $pad: 10px;
 	h1 {
 		font-family: $font-stack;
 		margin-top: 0px;
+		display:inline;
 	}
 
 	img {
 		width: 50%;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+		opacity: 0.8;
+	}
+
+	&.project-content {
+		// display:inline;
 	}
 }

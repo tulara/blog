@@ -5,9 +5,9 @@
 		<article class="project" 
 		ng-repeat="project in panel" 
 		ng-click="goToProject(project.id)">
-		<p> {{project.id}}</p>
 			<img ng-src="assets/img/{{project.imgPath}}" />
-			<h2 class="project-blurb">{{project.title}}</h2>
+			<span class="project-content">
+				<h2>{{project.title}}</h2>
+			</span>
 		</article>
 	</div>
-<span class="clearfix"></span>
