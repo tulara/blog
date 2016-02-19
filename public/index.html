@@ -1,37 +1,30 @@
 <!DOCTYPE HTML>
 <html ng-app="blog">
 <head>
+	<base href="/">
 	<meta name="viewport" content="initial-scale=1">
-	 <link href="assets/css/page.css" rel="stylesheet" />
-	 <link href="assets/css/hero.css" rel="stylesheet" />
-	 <link href="assets/css/blog-post.css" rel="stylesheet" />
-	 <link href="assets/css/project-panel.css" rel="stylesheet" />
-	 <link href="assets/css/footer.css" rel="stylesheet" />
-	 <link href="assets/css/clear-fix.css" rel="stylesheet" />
+	<link href="assets/css/page.css" rel="stylesheet" />
+	<link href="assets/css/hero.css" rel="stylesheet" />
+	<link href="assets/css/blog-post.css" rel="stylesheet" />
+	<link href="assets/css/project-panel.css" rel="stylesheet" />
+	<link href="assets/css/footer.css" rel="stylesheet" />
+	<link href="assets/css/clear-fix.css" rel="stylesheet" />
 	<title>Hello</title>
 </head>
 <body>
-
-<div ng-controller="crochetController">
-	<hero title="crochet"></hero>
-
-	<div class="project-panel">
-		<article class="project" ng-repeat="project in panel">
-			<img ng-src="assets/img/{{project.imgPath}}" />
-			<h2 class="project-blurb">{{project.title}}</h2>
-		</article>
-	</div>
-<span class="clearfix"></span>
+<div ng-view></div>
 <footer></footer>
 
 <!-- AngularJS library -->
  <script src="assets/vendor/angular/angular.min.js"></script> 
+ <script src="assets/vendor/angular-route/angular-route.min.js"></script> 
 
 <!-- Modules -->
 <script src="app.js"></script>
 
 <!-- Controllers -->
 <script src="components/crochet/crochetController.js"></script>
+<script src="shared/post/blogpostController.js"></script>
 
 <!-- Directives -->
 <script src="shared/hero/hero.js"></script>
