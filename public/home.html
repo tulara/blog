@@ -6,8 +6,6 @@
 		ng-repeat="project in panel" 
 		ng-click="goToProject(project.id)">
 			<img ng-src="assets/img/crochetPanel/{{project.img.small}}" />
-			<span class="project-content">
-				<h2>{{project.title}}</h2>
-			</span>
+			<h2>{{project.title}}</h2>
 		</article>
 	</div>

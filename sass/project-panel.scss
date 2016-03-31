@@ -6,6 +6,7 @@ $margin-auto-center: 0 auto;
 .project-panel {
 	font-family: $font-stack;
 	margin-top:-10px;
+	padding-bottom:50px
 }
 .project  {
 	width:45%;
@@ -39,5 +40,13 @@ $margin-auto-center: 0 auto;
 	img:hover {
 		opacity: 1.0;
 		background-color: #cccccc;
+	}
+
+	h2 {
+		font-size:1em;
+
+		@media only screen and (min-width:660px){
+			font-size:1.5em;
+		}
 	}
 }
