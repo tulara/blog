@@ -4,14 +4,18 @@ app.config(function($routeProvider, $locationProvider){
 	$locationProvider.html5Mode(true);
 
 	$routeProvider.when("/home", {
-		templateUrl: "/home.html"
+		templateUrl: "/home.html",
+		controller: "crochetController"
 	});
 
 	$routeProvider.when("/blogpost/:id", {
-		templateUrl: "/blogpost.html"
+		templateUrl: "/blogpost.html",
+		controller: "blogpostController"
+
 	});
 
 	$routeProvider.otherwise({
-		templateUrl: "/home.html"
+		templateUrl: "/home.html",
+		controller: "crochetController"
 	});
 });

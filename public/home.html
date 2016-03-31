@@ -1,11 +1,11 @@
-<div ng-controller="crochetController">
-	<hero title="crochet"></hero>
 
-	<div class="project-panel">
-		<article class="project" 
-		ng-repeat="project in panel" 
-		ng-click="goToProject(project.id)">
-			<img ng-src="assets/img/crochetPanel/{{project.img.small}}" />
-			<h2>{{project.title}}</h2>
-		</article>
-	</div>
+<hero title="crochet"></hero>
+
+<div class="project-panel">
+	<article class="project" 
+	ng-repeat="project in panel" 
+	ng-click="goToProject(project.id)">
+		<img ng-src="assets/img/crochetPanel/{{project.img.small}}" />
+		<h2>{{project.title}}</h2>
+	</article>
+</div>

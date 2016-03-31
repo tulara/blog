@@ -2,7 +2,9 @@ var connect = require('connect'),
 	favicon = require('serve-favicon'),
 	sassMiddleware = require('node-sass-middleware'),
 	serveStatic = require('serve-static'),
-	http = require('http');
+	http = require('http'),
+	modRewrite = require('connect-modrewrite');
+
 
 var srcPath = __dirname + '/sass';
 var destPath = __dirname + '/public/assets/css';
@@ -10,6 +12,9 @@ var destPath = __dirname + '/public/assets/css';
 var port = process.env.PORT || 8080;
 
 var app = connect()
+	.use(modRewrite([
+    	'^/blogpost/.*$ /index.html'
+    ]))
 	.use('/assets/css', sassMiddleware({
 		src: srcPath,
 		dest: destPath,

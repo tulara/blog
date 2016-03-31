@@ -1,7 +1,7 @@
 app.service("projectsService", function(){
 	var projects = [ 
 			{
-				id: 1,
+				id: 'crochet-beret',
 				img: {
 					small: "crochet-beret-small.jpg",
 					feature: "crochet-beret.jpg"
@@ -9,7 +9,7 @@ app.service("projectsService", function(){
 				title: "Beret"
 			},
 			{
-				id: 2,
+				id: 'crochet-phone-cover',
 				img: {
 					small: "crochet-phone-cover-small.jpg",
 					feature: "crochet-phone-cover.jpg"
@@ -17,7 +17,7 @@ app.service("projectsService", function(){
 				title: "Phone Cover"
 			},
 			{
-				id: 3,
+				id: 'crochet-mario-mushroom',
 				img: {
 					small: "crochet-mario-mushroom-small.jpg",
 					feature: "crochet-mario-mushroom.jpg"
@@ -25,7 +25,7 @@ app.service("projectsService", function(){
 				title: "Mario Mushroom"
 			},
 			{
-				id: 4,
+				id: 'crochet-ribbed-beanie',
 				img: {
 					small: "crochet-ribbed-beanie-small.jpg",
 					feature: "crochet-ribbed-beanie.jpg"	
@@ -33,7 +33,7 @@ app.service("projectsService", function(){
 				title:"Ribbed Beanie"
 			},
 			{
-				id: 5,
+				id: 'crochet-granny-squares',
 				img: {
 					small: "crochet-granny-squares-small.jpg",	
 					feature: "crochet-granny-squares.jpg"
@@ -41,7 +41,7 @@ app.service("projectsService", function(){
 				title:"Granny Squares"
 			},
 			{
-				id: 6,
+				id: 'crochet-heart',
 				img: {
 					small: "crochet-heart-small.jpg",
 					feature: "crochet-heart.jpg"
@@ -49,7 +49,7 @@ app.service("projectsService", function(){
 				title:"Puffed Heart"
 			},
 			{
-				id: 7,
+				id: 'crochet-puff-flowers',
 				img: {
 					small: "crochet-puff-flowers-small.jpg",
 					feature: "crochet-puff-flowers.jpg"
@@ -57,7 +57,7 @@ app.service("projectsService", function(){
 				title:"Puffed Flowers"
 			},
 			{
-				id: 8,
+				id: 'crochet-thor-beanie',
 				img: {
 					small: "crochet-thor-beanie-small.jpg",
 					feature: "crochet-thor-beanie.jpg"

@@ -1,25 +1,26 @@
 {
-	"name":"tulara-blog",
-	"version":"0.0.1",
-	"description":"a place to exhibit crochet fun",
-	"author":"Tulara <tulara.webster@gmail.com>",
-	"dependencies": {   
-		"bower": "*",
-		"serve-favicon":"*",
-		"connect": "^3.3.4",
-   		"node-sass-middleware": "^0.9.0",
-    	"serve-static": "^1.8.1"
-	},
-	"devDependencies":{
-		"jasmine":"*"
-	},
-	"scripts": {
-		"install":"bower install",
-    	"start": "node server.js"
-    },
-	"repository" : {
-		"type" : "git",
-		"url" : "https://github.com/tulara/blog.git"
-	},
-	"license":"MIT"
+  "name": "tulara-blog",
+  "version": "0.0.1",
+  "description": "a place to exhibit crochet fun",
+  "author": "Tulara <tulara.webster@gmail.com>",
+  "dependencies": {
+    "bower": "*",
+    "connect": "^3.3.4",
+    "connect-modrewrite": "^0.9.0",
+    "node-sass-middleware": "^0.9.0",
+    "serve-favicon": "*",
+    "serve-static": "^1.8.1"
+  },
+  "devDependencies": {
+    "jasmine": "*"
+  },
+  "scripts": {
+    "install": "bower install",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tulara/blog.git"
+  },
+  "license": "MIT"
 }
