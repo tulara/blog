@@ -1,0 +1,69 @@
+@import 'fonts/fonts';
+@import 'colours';
+$margin-auto-center: 0 auto;
+
+.logo {
+	margin:$margin-auto-center;
+	text-align:center;
+
+	h1 {
+	    background-color:rgba(242, 242, 242, 0.9);
+	    border-style: solid solid none solid;
+    	border-color:$dark-grey;
+		font-size: 50px;
+		padding: 15px 15px 10px 15px;
+		margin-top:0px;
+		margin-bottom:0px;
+
+		@media only screen and (min-width:640px){
+			font-size: 70px;
+			padding: 20px 20px 15px 20px;
+		}
+	}
+
+	h2 {
+		font-size: 20px;
+
+		border-style: none solid solid solid;
+    	border-color:$dark-grey;
+		background-color:rgba(153, 0, 51, 0.8);
+		color: $cream;
+		margin-top:0px;
+		padding: 20px 20px 15px 20px;
+
+		@media only screen and (min-width:640px){
+			font-size: 30px;
+		}
+	}
+
+}
+
+.social-media-buttons {
+	min-height: 50px;
+	text-align: center;
+
+	@media only screen and (min-width:640px){
+		padding-bottom:10px;
+	}
+
+	img {
+		margin: 0px 10px 10px 10px;			
+		opacity:0.9;
+		padding-bottom:20px;
+	}
+	img:hover {
+		opacity:1;
+	}
+}
+
+header {
+    background-image: url("../img/trim-small.png");
+    background-repeat: no-repeat;
+	background-size:cover;
+    height: 200px;
+
+    	@media only screen and (min-width:640px){
+    		background-image: url("../img/trim.png");
+    	}
+
+}

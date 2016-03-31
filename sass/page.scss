@@ -16,14 +16,3 @@ a {
 		color:#996515;
 	}
 }
-
-header {
-    background-image: url("../img/trim-small.png");
-    background-repeat: no-repeat;
-	background-size:cover;
-    height: 200px;
-
-    	@media only screen and (min-width:640px){
-    		background-image: url("../img/trim.png");
-    	}
-}
