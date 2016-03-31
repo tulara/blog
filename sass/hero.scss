@@ -50,4 +50,20 @@ $margin-auto-center: 0 auto;
 		min-height: 600px;
 	    padding-top:100px;
     }
+
+
+    .social-media-buttons {
+    	margin:$margin-auto-center;
+    	min-height: 50px;
+		display:inline;
+
+		img {
+			margin-left:10px;
+			margin-right:10px;
+			opacity:0.9;
+		}
+		img:hover {
+			opacity:1;
+		}
+    }
 }
