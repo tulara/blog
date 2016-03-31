@@ -8,20 +8,30 @@ $margin-auto-center: 0 auto;
 	font-family: $font-stack;
 	margin:$margin-auto-center;
 	text-align:center;
-	width: 300px;
+	width: 250px;
 
+	@media only screen and (min-width:640px){
+		width: 300px;
+	}
+	
 	h1 {
 	    background-color:rgba(242, 242, 242, 0.9);
 	    border-style: solid solid none solid;
     	border-color:$dark-grey;
-		font-size: 70px;
+		font-size: 50px;
 		vertical-align: text-bottom;
-		padding: 20px 20px 15px 20px;
+		padding: 15px 15px 10px 15px;
+		margin-top:0px;
 		margin-bottom:0px;
+
+		@media only screen and (min-width:640px){
+			font-size: 70px;
+			padding: 20px 20px 15px 20px;
+		}
 	}
 
 	h2 {
-		font-size: 30px;
+		font-size: 20px;
 		text-align:center;
 		border-style: none solid solid solid;
     	border-color:$dark-grey;
@@ -29,6 +39,10 @@ $margin-auto-center: 0 auto;
 		color: $cream;
 		margin-top:0px;
 		padding: 20px 20px 15px 20px;
+
+		@media only screen and (min-width:640px){
+			font-size: 30px;
+		}
 	}
 }
 
@@ -38,6 +52,7 @@ $margin-auto-center: 0 auto;
 	background-size:cover;
 	min-height: 150px;
     padding-top: 20px;
+    margin-bottom: 20px;
 
     @media only screen and (min-width:640px){
     	background-image: url("../img/hero.png");
@@ -53,14 +68,17 @@ $margin-auto-center: 0 auto;
 
 
     .social-media-buttons {
-    	margin:$margin-auto-center;
     	min-height: 50px;
 		display:inline;
 
+		@media only screen and (min-width:640px){
+			padding-bottom:10px;
+		}
+
 		img {
-			margin-left:10px;
-			margin-right:10px;
+			margin: auto 10px 10px 10px;			
 			opacity:0.9;
+			padding-bottom:20px;
 		}
 		img:hover {
 			opacity:1;
