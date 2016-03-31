@@ -15,15 +15,4 @@ Open chrome via command line with following arguments to avoid cross origin erro
 4. `heroku open`
 
 ### TO DO
-- full page responsive ORIGINAL hero image
-- tiled projects display
-- module css post components?
-- angular module per hobby?
-- header that backs off as scroll down on sub pages (a la realestate.com.au) or content that appears to slide up over image
-- css reset
-- sass
-- mixin for background cover, clearfix
-- recent blog posts
-- require.js?
-- time zone on timestamps? ryan's book.
-- bower generate front end packages then grunt to get them into relevant files
+https://trello.com/b/200AsCUh/blog
