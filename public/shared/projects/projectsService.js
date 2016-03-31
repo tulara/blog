@@ -2,42 +2,66 @@ app.service("projectsService", function(){
 	var projects = [ 
 			{
 				id: 1,
-				imgPath: "crochetPanel/crochet-beret.jpg",
+				img: {
+					small: "crochet-beret-small.jpg",
+					feature: "crochet-beret.jpg"
+				},
 				title: "Beret"
 			},
 			{
 				id: 2,
-				imgPath: "crochetPanel/crochet-phone-cover.jpg",
+				img: {
+					small: "crochet-phone-cover-small.jpg",
+					feature: "crochet-phone-cover.jpg"
+				},
 				title: "Phone Cover"
 			},
 			{
 				id: 3,
-				imgPath: "crochetPanel/crochet-mario-mushroom.jpg",
+				img: {
+					small: "crochet-mario-mushroom-small.jpg",
+					feature: "crochet-mario-mushroom.jpg"
+				},
 				title: "Mario Mushroom"
 			},
 			{
 				id: 4,
-				imgPath: "crochetPanel/crochet-ribbed-beanie.jpg",
+				img: {
+					small: "crochet-ribbed-beanie-small.jpg",
+					feature: "crochet-ribbed-beanie.jpg"	
+				},
 				title:"Ribbed Beanie"
 			},
 			{
 				id: 5,
-				imgPath: "crochetPanel/crochet-granny-squares.jpg",
+				img: {
+					small: "crochet-granny-squares-small.jpg",	
+					feature: "crochet-granny-squares.jpg"
+				},
 				title:"Granny Squares"
 			},
 			{
 				id: 6,
-				imgPath: "crochetPanel/crochet-heart.jpg",
+				img: {
+					small: "crochet-heart-small.jpg",
+					feature: "crochet-heart.jpg"
+				},
 				title:"Puffed Heart"
 			},
 			{
 				id: 7,
-				imgPath: "crochetPanel/crochet-puff-flowers.jpg",
+				img: {
+					small: "crochet-puff-flowers-small.jpg",
+					feature: "crochet-puff-flowers.jpg"
+				}, 
 				title:"Puffed Flowers"
 			},
 			{
 				id: 8,
-				imgPath: "crochetPanel/crochet-thor-beanie.jpg",
+				img: {
+					small: "crochet-thor-beanie-small.jpg",
+					feature: "crochet-thor-beanie.jpg"
+				}, 
 				title:"Thor Beanie"
 			}
 		];
