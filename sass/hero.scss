@@ -11,37 +11,42 @@ $margin-auto-center: 0 auto;
 	width: 300px;
 
 	h1 {
-	    background-color:rgba(242, 242, 242, 0.6);
+	    background-color:rgba(242, 242, 242, 0.9);
 	    border-style: solid solid none solid;
     	border-color:$dark-grey;
 		font-size: 70px;
 		vertical-align: text-bottom;
 		padding: 20px 20px 15px 20px;
+		margin-bottom:0px;
 	}
 
 	h2 {
 		font-size: 30px;
 		text-align:center;
-		color: #b38500;
-		margin-top:5px;
+		border-style: none solid solid solid;
+    	border-color:$dark-grey;
+		background-color:rgba(153, 0, 51, 0.8);
+		color: $cream;
+		margin-top:0px;
+		padding: 20px 20px 15px 20px;
 	}
 }
 
 .hero {
-	background-image: url("../img/hero-small.jpg");
+	background-image: url("../img/hero-small.png");
 	background-repeat: no-repeat;
 	background-size:cover;
 	min-height: 150px;
-    padding-top: 30px;
+    padding-top: 20px;
 
     @media only screen and (min-width:640px){
-    	background-image: url("../img/hero-temp2.jpeg");
-		min-height: 400px;
+    	background-image: url("../img/hero.png");
+		min-height: 450px;
 	    padding-top:100px;
     }
 
     @media only screen and (min-width:1300px){
-    	background-image: url("../img/hero-temp2.jpeg");
+    	background-image: url("../img/hero.png");
 		min-height: 600px;
 	    padding-top:100px;
     }
