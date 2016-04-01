@@ -1,46 +1,16 @@
 @import 'fonts/fonts';
 @import 'colours';
 $margin-auto-center: 0 auto;
-
-.logo {
-	margin:$margin-auto-center;
-	text-align:center;
-
-	h1 {
-	    background-color:rgba(242, 242, 242, 0.9);
-	    border-style: solid solid none solid;
-    	border-color:$dark-grey;
-		font-size: 50px;
-		padding: 15px 15px 10px 15px;
-		margin-top:0px;
-		margin-bottom:0px;
-
-		@media only screen and (min-width:640px){
-			font-size: 70px;
-			padding: 20px 20px 15px 20px;
-		}
-	}
-
-	h2 {
-		font-size: 20px;
-
-		border-style: none solid solid solid;
-    	border-color:$dark-grey;
-		background-color:rgba(153, 0, 51, 0.8);
-		color: $cream;
-		margin-top:0px;
-		padding: 20px 20px 15px 20px;
-
-		@media only screen and (min-width:640px){
-			font-size: 30px;
-		}
-	}
-
-}
+$transition-delay: 0.8s;
 
 .social-media-buttons {
 	min-height: 50px;
 	text-align: center;
+	-webkit-transition: all $transition-delay;
+    -moz-transition: all $transition-delay;
+    -ms-transition: all $transition-delay;
+    -o-transition: all $transition-delay;
+    transition: all $transition-delay;
 
 	@media only screen and (min-width:640px){
 		padding-bottom:10px;
@@ -49,7 +19,7 @@ $margin-auto-center: 0 auto;
 	img {
 		margin: 0px 10px 10px 10px;			
 		opacity:0.9;
-		padding-bottom:20px;
+		padding-bottom:5px;
 	}
 	img:hover {
 		opacity:1;
@@ -57,13 +27,68 @@ $margin-auto-center: 0 auto;
 }
 
 header {
-    background-image: url("../img/trim-small.png");
+    background-image: url("../img/hero-small.png");
     background-repeat: no-repeat;
 	background-size:cover;
-    height: 200px;
+	padding-top: 20px;
+	min-height:250px;
+	margin-bottom:30px;
 
-    	@media only screen and (min-width:640px){
-    		background-image: url("../img/trim.png");
-    	}
+	-webkit-transition: all $transition-delay;
+    -moz-transition: all $transition-delay;
+    -ms-transition: all $transition-delay;
+    -o-transition: all $transition-delay;
+    transition: all $transition-delay;
+
+	@media only screen and (min-width:640px){
+		background-image: url("../img/hero.png");
+	}
+
+}
+
+header.smaller {
+	min-height:80px;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:99;
+
+	.logo {
+		z-index:99;
+		position:fixed;
+		margin-left:40%;
+		width:120px;
+		
+		@media only screen and (min-width:640px){
+			margin-left:45%;
+		}
+
+		h1 {
+			font-size: 22px;
+			padding: 4px 4px 2px 4px;
+		}
+
+		h2 {
+			font-size: 14px;
+			padding: 4px 4px 2px 4px;
+		}
+	}
+
+	.social-media-buttons  {
+		z-index:99;
+		display:inline;
+		margin-left:5%;
+		margin-top: 30px;
+		position:fixed;
+		top:0;
+		left:0;
+
+		img {
+			margin: 0px 5px 5px 5px;		
+			height:30px;
+			width:30px;
+		}
+	}
 
 }
