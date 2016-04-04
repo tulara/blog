@@ -5,7 +5,13 @@
 </header>
 <h1 class="post-title">{{project.title}}</h1>
 <article class="post">
-	<img ng-src="/assets/img/crochetPanel/{{project.img.feature}}" />
-	<div>{{project.content}}</div>
+	<div class="pattern">
+		<img ng-src="/assets/img/crochetPanel/{{project.img.feature}}" />
+		<div class="pattern-content">
+			<h2>Pattern</h2>
+			<p ng-bind-html="project.pattern"></p>
+		</div>
+	</div>
+	<div class="project-content" ng-bind-html="project.content"></div>
 </article>
 </div>

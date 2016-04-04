@@ -7,4 +7,6 @@ app.controller('blogpostController',['$scope', 'projectsService','$route', '$rou
 			$scope.project = projectsService.getProjectById(id);
 		}
 	});
+
+	
 }]);
