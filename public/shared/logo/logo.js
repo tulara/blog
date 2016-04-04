@@ -7,7 +7,8 @@ app.directive('logo', ['$location', function($location) {
 
             function goHome () {
 				$location.path("/");
-            }
+				scope.$apply()
+            };
 
             element.on('click', goHome);
         }
