@@ -2,21 +2,22 @@
 @import 'colours';
 @import 'mixins';
 $margin-auto-center: 0 auto;
-$transition-delay: 0.8s;
 
 .social-media-buttons {
 	min-height: 50px;
 	text-align: center;
-	@include transition($transition-delay);
 
 	@media only screen and (min-width:640px){
 		padding-bottom:10px;
 	}
 
 	img {
+		@include transition(all);
 		margin: 0px 10px 10px 10px;			
 		opacity:0.9;
 		padding-bottom:5px;
+		height:50px;
+		width:50px;
 	}
 	img:hover {
 		opacity:1;
@@ -30,7 +31,6 @@ header {
 	padding-top: 20px;
 	min-height:250px;
 	margin-bottom:30px;
-	@include transition($transition-delay);
 
 	@media only screen and (min-width:640px){
 		background-image: url("../img/hero.png");
@@ -39,6 +39,7 @@ header {
 }
 
 header.smaller {
+	text-align: center;
 	min-height:80px;
 	width:100%;
 	position:fixed;
@@ -48,13 +49,13 @@ header.smaller {
 
 	.logo {
 		z-index:99;
+		display:inline;
+		margin-left:5%;
+		margin-top: 15px;
 		position:fixed;
-		margin-left:40%;
+		top:0;
+		left:0;
 		width:120px;
-		
-		@media only screen and (min-width:640px){
-			margin-left:45%;
-		}
 
 		h1 {
 			font-size: 22px;
@@ -69,17 +70,11 @@ header.smaller {
 
 	.social-media-buttons  {
 		z-index:99;
-		display:inline;
-		margin-left:5%;
-		margin-top: 30px;
-		position:fixed;
-		top:0;
-		left:0;
 
 		img {
-			margin: 0px 5px 5px 5px;		
-			height:30px;
-			width:30px;
+			margin: 0px 8px 8px 8px;		
+			height:40px;
+			width:40px;
 		}
 	}
 

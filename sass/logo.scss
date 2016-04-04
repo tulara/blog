@@ -3,13 +3,12 @@
 @import 'mixins';
 
 $margin-auto-center: 0 auto;
-$transition-delay: 0.8s;
 
 .logo {
 	margin:$margin-auto-center;
 	text-align:center;	
 	width: 250px;
-	@include transition($transition-delay);
+	@include transition(position);
 
 	@media only screen and (min-width:640px){
 		width: 300px;
@@ -23,7 +22,6 @@ $transition-delay: 0.8s;
 		padding: 10px 10px 8px 10px;
 		margin-top:0px;
 		margin-bottom:0px;
-		@include transition($transition-delay);
 
 		@media only screen and (min-width:640px){
 			font-size: 70px;
@@ -39,10 +37,10 @@ $transition-delay: 0.8s;
 		color: $cream;
 		margin-top:0px;
 		padding: 20px 20px 15px 20px;
-		@include transition($transition-delay);
 
 		@media only screen and (min-width:640px){
 			font-size: 30px;
 		}
 	}
+
 }

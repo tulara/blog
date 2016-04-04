@@ -1,7 +1,9 @@
-@mixin transition($delay){
-	-webkit-transition: all $delay;
-    -moz-transition: all $delay;
-    -ms-transition: all $delay;
-    -o-transition: all $delay;
-    transition: all $delay;
+$transition-delay: 0.5s;
+
+@mixin transition($property){
+	-webkit-transition: $property $transition-delay;
+    -moz-transition: $property $transition-delay;
+    -ms-transition: $property $transition-delay;
+    -o-transition: $property $transition-delay;
+    transition: $property $transition-delay;
 }
