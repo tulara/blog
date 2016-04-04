@@ -1,5 +1,6 @@
-<header scroll ng-class="{smaller:headerIsMinimised}">
-	<ng-include src=" 'shared/header/title-logo.html' "></ng-include>
+<div scroll ng-class="{smaller:headerIsMinimised}">
+<header>
+	<logo></logo>
 	<ng-include src=" 'shared/header/social-media-buttons.html' "></ng-include>
 </header>
 <h1 class="post-title">{{project.title}}</h1>
@@ -7,3 +8,4 @@
 	<img ng-src="/assets/img/crochetPanel/{{project.img.feature}}" />
 	<div>{{project.content}}</div>
 </article>
+</div>

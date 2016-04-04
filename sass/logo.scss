@@ -8,7 +8,6 @@ $margin-auto-center: 0 auto;
 	margin:$margin-auto-center;
 	text-align:center;	
 	width: 250px;
-	@include transition(position);
 
 	@media only screen and (min-width:640px){
 		width: 300px;
@@ -41,6 +40,10 @@ $margin-auto-center: 0 auto;
 		@media only screen and (min-width:640px){
 			font-size: 30px;
 		}
+	}
+
+	&:hover{
+		cursor:pointer;
 	}
 
 }

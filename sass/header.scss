@@ -31,6 +31,10 @@ header {
 	padding-top: 20px;
 	min-height:250px;
 	margin-bottom:30px;
+	// top:0;
+	// width:100%;
+	// position:fixed;
+	// z-index:99;
 
 	@media only screen and (min-width:640px){
 		background-image: url("../img/hero.png");
@@ -38,14 +42,20 @@ header {
 
 }
 
-header.smaller {
-	text-align: center;
-	min-height:80px;
-	width:100%;
-	position:fixed;
-	top:0;
-	left:0;
-	z-index:99;
+.smaller {
+	header {
+		text-align: center;
+		min-height:80px;
+		width:100%;
+		position:fixed;
+		top:0;
+		left:0;
+		z-index:99;
+	}
+	
+	.post-title {
+		margin-top:318px;
+	}
 
 	.logo {
 		z-index:99;
@@ -77,5 +87,4 @@ header.smaller {
 			width:40px;
 		}
 	}
-
 }
